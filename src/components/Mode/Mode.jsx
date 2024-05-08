@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Mode.css';
 
-function App() {
+function Mode() {
     const theme = localStorage.getItem('theme') || 'light';
 
     const [themeMode, setThemeMode] = useState(theme);
